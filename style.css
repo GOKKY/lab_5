@@ -1,0 +1,180 @@
+
+body {
+    background: Gainsboro;
+    display: block;
+}
+
+.Main_layout {
+    width: 1000px;
+    background-color: white;
+    border-radius: 30px;
+    margin: 1px auto;
+    display: grid;
+    grid-template-columns: 250px 750px;
+}
+
+.Left_column {
+    width: 245px;
+    height: 800px;
+    background: #F0F8FF;
+    border-radius: 30px;
+    text-align: center;
+}
+
+
+.Line {
+    width: 8%;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 12px;
+}
+
+.Foto {
+    width: 65%;
+    margin-top: 75px;
+    border-radius: 25%;
+}
+
+.Name {
+    font-size: 170%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.Work {
+    width: 50%;
+    height: 2%;
+    background: #DCDCDC;
+    display: inline-block;
+    padding: 3% 2%;
+    border-radius: 30px;
+    font-family: 'Arial';
+    font-size: 85%;
+    margin-top: auto;
+    margin-bottom: 17px;
+}
+
+#social{
+    width: 6%;
+    padding: 3%;
+}
+
+.Info {
+    margin: 0 auto;
+    width: 70%;
+    text-align: left;
+    font-family: 'Arial';
+}
+#icon {
+    width: 10%;
+    padding: 2%;
+}
+
+.Button_downloadCV {
+    background-color: Blue;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 3% 5%;
+    margin-top: 10px;
+    height: 50px;
+    width: 170px;
+    border-radius: 15px;
+}
+
+#iconLoad {
+    width: 12%;
+    margin-right: 10px;
+}
+
+Label {
+    display: inline-block;
+    margin: 20px 0;
+    width: 92px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+Input {
+    display: none;
+}
+
+.Top_button {
+    margin-left: 240px;
+    text-decoration: none; 
+    color: #8a8f95;
+}
+
+#top_button_1 {
+    color: white;
+    background:#304ef5 ;
+    cursor: default; 
+}
+
+#top_button_2 { 
+    text-decoration: none; 
+    color: #8a8f95;
+}
+
+#top_button_2:hover {
+    color: Orange;
+    transition-duration: 1s;
+}
+
+.Text {
+    width: 700;
+    margin: 5px 20px;
+    color: #595b5c;
+    font-family: 'Arial';
+}
+
+.Text_2 {
+    margin-left: 20px;
+    font-size: 25px;
+    font-family: 'Arial';
+}
+
+.Title {
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.Bottom_layout {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    width: 90%;
+    margin: 0 auto;
+}
+
+#Bloc {
+    width: 90%;
+    margin: 10px auto;
+    border: 3px solid #DCDCDC;
+    border-radius: 30px;
+    }
+
+#Bloc:hover {
+    box-shadow: 0 0 3px 3px Orange;
+    transition-duration: 1s;
+}
+  
+#txt {
+    color: Gray;
+    font-family: "Arial";
+}
+
+#txt_1 {
+    font-family: "Arial";
+}
+
+#icon_2 {
+    margin-left: 42%;
+  }
+
+
+ 
